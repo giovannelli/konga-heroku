@@ -1,0 +1,30 @@
+{
+    "name": "Konga Deployment to Heroku",
+    "description": "Konga makes it easy to manage Kong on Heroku",
+    "keywords": [
+        "web",
+        "kong",
+        "gui",
+        "heroku"
+    ],
+    "stack": "container",
+    "repository": "https://bitbucket.org/axiatadigital/boost-heroku-konga",
+    "success_url": "/",
+    "env": {
+        "TOKEN_SECRET": {
+            "description": "Initial token secret",
+            "value": "Ramadh4n1440Hijriyah"
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "Private-S"
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql:standard-0"
+        }
+    ]
+}
