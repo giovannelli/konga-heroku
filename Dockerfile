@@ -1,3 +1,5 @@
 FROM pantsel/konga:latest
 
-CMD ["-b", "0.0.0.0"]
+COPY docker-entrypoint.sh /tmp
+
+ENTRYPOINT [ "/tmp/docker-entrypoint.sh" ]
