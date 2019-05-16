@@ -14,6 +14,10 @@
         "TOKEN_SECRET": {
             "description": "Initial token secret",
             "value": "Ramadh4n1440Hijriyah"
+        },
+        "NODE_ENV": {
+            "description": "Node Environment",
+            "value": "production"
         }
     },
     "formation": {
