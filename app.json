@@ -16,8 +16,8 @@
             "value": "Ramadh4n1440Hijriyah"
         },
         "NODE_ENV": {
-            "description": "Node Environment",
-            "value": "production"
+            "description": "Konga needs NODE_ENV as development to create database",
+            "value": "development"
         }
     },
     "formation": {
