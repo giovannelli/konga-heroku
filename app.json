@@ -13,7 +13,7 @@
     "env": {
         "TOKEN_SECRET": {
             "description": "Initial token secret",
-            "value": "Ramadh4n1440Hijriyah"
+            "value": "this-is-the-secret-token"
         },
         "NODE_ENV": {
             "description": "Konga needs NODE_ENV as development to create database",
