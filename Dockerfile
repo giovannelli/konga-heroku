@@ -2,6 +2,6 @@ FROM pantsel/konga:latest
 
 COPY docker-entrypoint.sh /tmp
 
-ENTRYPOINT [ "/tmp/docker-entrypoint.sh" ]
+RUN [ "/tmp/docker-entrypoint.sh" ]
 
-CMD ["node", "--harmony", "/app/app.js"]
+ENTRYPOINT ["node", "--harmony", "/app/app.js"]

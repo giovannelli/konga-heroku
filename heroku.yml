@@ -5,3 +5,6 @@ setup:
 build:
     docker:
         web: Dockerfile
+
+run:
+  web: node --harmony /app/app.js
