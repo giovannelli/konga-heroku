@@ -4,4 +4,6 @@ COPY docker-entrypoint.sh /tmp
 
 ENTRYPOINT [ "/tmp/docker-entrypoint.sh" ]
 
-CMD ["npm run production"]
+RUN [ "npm install" ]
+
+CMD ["node", "--harmony", "/app/app.js"]
