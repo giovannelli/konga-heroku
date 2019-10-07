@@ -8,7 +8,7 @@
         "heroku"
     ],
     "stack": "container",
-    "repository": "https://bitbucket.org/axiatadigital/boost-heroku-konga",
+    "repository": "https://github.com/giovannelli/konga-heroku",
     "success_url": "/",
     "env": {
         "TOKEN_SECRET": {
@@ -23,12 +23,12 @@
     "formation": {
         "web": {
             "quantity": 1,
-            "size": "Private-S"
+            "size": "free"
         }
     },
     "addons": [
         {
-            "plan": "heroku-postgresql:standard-0"
+            "plan": "heroku-postgresql:hobby-dev"
         }
     ]
 }
