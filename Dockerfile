@@ -2,7 +2,7 @@ FROM pantsel/konga:latest
 
 COPY docker-entrypoint.sh /tmp
 
-RUN ["chmod", "+x", "/tmp/commands.sh"]
+RUN ["chmod", "+x", "/tmp/docker-entrypoint.sh"]
 
 ENTRYPOINT [ "/tmp/docker-entrypoint.sh" ]
 
