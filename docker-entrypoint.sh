@@ -18,5 +18,3 @@ fi
 export DB_ADAPTER=postgres
 export DB_PG_SCHEMA=konga
 export DB_SSL=true
-
-node --harmony /app/app.js
