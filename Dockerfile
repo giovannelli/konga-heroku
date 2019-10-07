@@ -1,5 +1,5 @@
 FROM pantsel/konga:latest
 
-COPY docker-entrypoint.sh /tmp
+# COPY docker-entrypoint.sh /tmp
 
-ENTRYPOINT [ "/tmp/docker-entrypoint.sh" ]
+ENTRYPOINT [ "node", "--harmony", "/app/app.js"]
