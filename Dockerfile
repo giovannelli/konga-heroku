@@ -4,4 +4,4 @@ COPY docker-entrypoint.sh /tmp
 
 RUN [ "/tmp/docker-entrypoint.sh" ]
 
-ENTRYPOINT ["node", "--harmony", "/app/app.js"]
+CMD ["node", "--harmony", "/app/app.js"]
