@@ -2,6 +2,4 @@ FROM pantsel/konga:latest
 
 COPY docker-entrypoint.sh /tmp
 
-#RUN [ "/tmp/docker-entrypoint.sh" ]
-
-CMD ["node", "--harmony", "/app/app.js"]
+CMD ["/app/start.sh", "-c prepare -a postgres -u", ${DATABASE_URL}]
